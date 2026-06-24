@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+.type-italiana-martel {
+    font-family: 'Martel', serif;
+    font-size: 0.88rem; 
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-italiana-martel h1, .type-italiana-martel h2, .type-italiana-martel h3, .type-italiana-martel h4, .type-italiana-martel h5, .type-italiana-martel h6 {
+    font-family: 'Martel', serif;
+    line-height: 1.2;
+}        
+
+.type-italiana-martel h1 {font-size: 2.9rem; margin: 1.2rem 0 1.2rem; }
+.type-italiana-martel h2 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-italiana-martel h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-italiana-martel h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-italiana-martel h5 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-italiana-martel h6 {font-size: 1.04rem; margin: 0.5rem 0 0.5rem; }
+.type-italiana-martel p {margin:0.8rem 0 0.8rem;}
+/* .type-italiana-martel ul, .type-italiana-martel ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-italiana-martel .display { margin-bottom: 0.5rem; }
+.type-italiana-martel .display h1 {
+    font-family: 'Italiana', serif;
+    font-size: 4.2rem;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.type-italiana-martel .display p {
+    font-family: 'Martel', serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

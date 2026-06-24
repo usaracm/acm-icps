@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.type-federo-gothica1 {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-federo-gothica1 h1, .type-federo-gothica1 h2, .type-federo-gothica1 h3, .type-federo-gothica1 h4, .type-federo-gothica1 h5, .type-federo-gothica1 h6 {
+    font-family: 'Federo', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-federo-gothica1 h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-federo-gothica1 h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-federo-gothica1 h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-federo-gothica1 h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-federo-gothica1 h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-federo-gothica1 h6 {font-size: 1.21rem; margin: 0.5rem 0 0.5rem; }
+.type-federo-gothica1 p {margin:0.8rem 0 0.8rem;}
+/* .type-federo-gothica1 ul, .type-federo-gothica1 ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-federo-gothica1 .display { margin-bottom: 0.5rem; }
+.type-federo-gothica1 .display h1 {
+	font-family: 'Federo', sans-serif;
+    font-size: 4.4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-federo-gothica1 .display p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-style: italic;
+}

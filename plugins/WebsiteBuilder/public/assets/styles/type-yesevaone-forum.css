@@ -1,0 +1,42 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+.type-yesevaone-forum {
+    font-family: 'Forum', cursive;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+.type-yesevaone-forum h1, .type-yesevaone-forum h2, .type-yesevaone-forum h3, .type-yesevaone-forum h4, .type-yesevaone-forum h5, .type-yesevaone-forum h6 {
+    font-family: 'Forum', cursive;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-style: normal;
+}        
+
+.type-yesevaone-forum h1 {font-size: 3.6rem;line-height: 1.15; margin: 1.2rem 0 1.2rem; }
+.type-yesevaone-forum h2 {font-size: 2.8rem; margin: 1rem 0 1rem; }
+.type-yesevaone-forum h3 {font-size: 2.3rem; margin: 1rem 0 1rem; }
+.type-yesevaone-forum h4 {font-size: 1.9rem; margin: 0.5rem 0 0.5rem; }
+.type-yesevaone-forum h5 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-yesevaone-forum h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-yesevaone-forum p {margin:0.8rem 0 0.8rem;}
+/* .type-yesevaone-forum ul, .type-yesevaone-forum ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-yesevaone-forum .display { margin-bottom: 0.5rem; }
+.type-yesevaone-forum .display h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-yesevaone-forum .display p {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}

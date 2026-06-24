@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body, .is-wrapper {
+    font-family: 'Arvo', serif;
+    font-size: 1.14rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-family: 'Sriracha', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.is-wrapper h1 {font-size: 3.3rem;line-height: 1.15;}
+.is-wrapper h2 {font-size: 2.6rem;}
+.is-wrapper h3 {font-size: 2.1rem;}
+.is-wrapper h4 {font-size: 1.7rem;}
+.is-wrapper h5 {font-size: 1.5rem;}
+.is-wrapper h6 {font-size: 1.2rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+	font-family: 'Sriracha', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.4rem;
+}

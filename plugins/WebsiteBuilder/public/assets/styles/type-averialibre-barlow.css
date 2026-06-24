@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.type-averialibre-barlow {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.26rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-averialibre-barlow h1, .type-averialibre-barlow h2, .type-averialibre-barlow h3, .type-averialibre-barlow h4, .type-averialibre-barlow h5, .type-averialibre-barlow h6 {
+    font-family: 'Averia Libre', cursive;
+    font-weight: 400;
+    line-height: 1.2; 
+}        
+
+.type-averialibre-barlow h1 {font-size: 3.1rem; margin: 1.2rem 0 1.2rem; }
+.type-averialibre-barlow h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-averialibre-barlow h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-averialibre-barlow h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-averialibre-barlow h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-averialibre-barlow h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-averialibre-barlow  p {margin:0.8rem 0 0.8rem;}
+/* .type-averialibre-barlow  ul, .type-averialibre-barlow  ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-averialibre-barlow .display { margin-bottom: 0.5rem; }
+.type-averialibre-barlow .display h1 {
+	font-family: 'Averia Libre', cursive;
+    font-size: 3.8rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-averialibre-barlow .display p {
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}

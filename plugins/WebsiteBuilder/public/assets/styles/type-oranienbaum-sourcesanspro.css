@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.type-oranienbaum-sourcesanspro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-oranienbaum-sourcesanspro h1, .type-oranienbaum-sourcesanspro h2, .type-oranienbaum-sourcesanspro h3, .type-oranienbaum-sourcesanspro h4, .type-oranienbaum-sourcesanspro h5, .type-oranienbaum-sourcesanspro h6 {
+    font-family: 'Oranienbaum', serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-oranienbaum-sourcesanspro h1 {font-size: 3.3rem; margin: 1.2rem 0 1.2rem; }
+.type-oranienbaum-sourcesanspro h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-oranienbaum-sourcesanspro h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-oranienbaum-sourcesanspro h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-oranienbaum-sourcesanspro h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-oranienbaum-sourcesanspro h6 {font-size: 1.26rem; margin: 0.5rem 0 0.5rem; }
+.type-oranienbaum-sourcesanspro p {margin:0.8rem 0 0.8rem;}
+/* .type-oranienbaum-sourcesanspro ul, .type-oranienbaum-sourcesanspro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-oranienbaum-sourcesanspro .display { margin-bottom: 0.5rem; }
+.type-oranienbaum-sourcesanspro .display h1 {
+	font-family: 'Oranienbaum', serif;
+    font-size: 4.3rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-oranienbaum-sourcesanspro .display p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

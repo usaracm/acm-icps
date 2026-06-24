@@ -1,0 +1,41 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap');
+
+.type-teko-muktamahee {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-teko-muktamahee h1, .type-teko-muktamahee h2, .type-teko-muktamahee h3, .type-teko-muktamahee h4, .type-teko-muktamahee h5, .type-teko-muktamahee h6 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}        
+
+.type-teko-muktamahee h1 {font-size: 3.5rem;line-height: 1.1; margin: 1.2rem 0 1.2rem; }
+.type-teko-muktamahee h2 {font-size: 2.8rem; margin: 1rem 0 1rem; }
+.type-teko-muktamahee h3 {font-size: 2.3rem; margin: 1rem 0 1rem; }
+.type-teko-muktamahee h4 {font-size: 2rem; margin: 0.5rem 0 0.5rem; }
+.type-teko-muktamahee h5 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-teko-muktamahee h6 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-teko-muktamahee p {margin:0.8rem 0 0.8rem;}
+/* .type-teko-muktamahee ul, .type-teko-muktamahee ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-teko-muktamahee .display { margin-bottom: 0.5rem; }
+.type-teko-muktamahee .display h1 {
+	font-family: 'Teko', sans-serif;
+    font-size: 5.8rem;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-teko-muktamahee .display p {
+    font-size: 1.3rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}

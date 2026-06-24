@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.type-stintultracon-inconsolata {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.12rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.type-stintultracon-inconsolata h1, .type-stintultracon-inconsolata h2, .type-stintultracon-inconsolata h3, .type-stintultracon-inconsolata h4, .type-stintultracon-inconsolata h5, .type-stintultracon-inconsolata h6 {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-stintultracon-inconsolata h1 {font-size: 3.5rem; margin: 1.2rem 0 1.2rem; }
+.type-stintultracon-inconsolata h2 {font-size: 2.8rem; margin: 1rem 0 1rem; }
+.type-stintultracon-inconsolata h3 {font-size: 2.2rem; margin: 1rem 0 1rem; }
+.type-stintultracon-inconsolata h4 {font-size: 1.9rem; margin: 0.5rem 0 0.5rem; }
+.type-stintultracon-inconsolata h5 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-stintultracon-inconsolata h6 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-stintultracon-inconsolata p {margin:0.8rem 0 0.8rem;}
+/* .type-stintultracon-inconsolata ul, .type-stintultracon-inconsolata ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-stintultracon-inconsolata .display { margin-bottom: 0.5rem; }
+.type-stintultracon-inconsolata .display h1 {
+	font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 4.4rem;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.type-stintultracon-inconsolata .display p {
+    font-size: 1.4rem;
+}

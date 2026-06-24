@@ -1,0 +1,41 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+.type-dosis-oldstandardtt {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.32rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-dosis-oldstandardtt h1, .type-dosis-oldstandardtt h2, .type-dosis-oldstandardtt h3, .type-dosis-oldstandardtt h4, .type-dosis-oldstandardtt h5, .type-dosis-oldstandardtt h6 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}        
+
+.type-dosis-oldstandardtt h1 {font-size: 3.4rem; margin: 1.2rem 0 1.2rem; }
+.type-dosis-oldstandardtt h2 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-dosis-oldstandardtt h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-dosis-oldstandardtt h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-dosis-oldstandardtt h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-dosis-oldstandardtt h6 {font-size: 1.32rem; margin: 0.5rem 0 0.5rem; }
+.type-dosis-oldstandardtt p {margin:0.8rem 0 0.8rem;}
+/* .type-dosis-oldstandardtt ul, .type-dosis-oldstandardtt ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-dosis-oldstandardtt .display { margin-bottom: 0.5rem; }
+.type-dosis-oldstandardtt .display h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 5rem;
+    line-height: 1.15;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-dosis-oldstandardtt .display p {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+}

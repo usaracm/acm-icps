@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+.type-cinzeldecor-palanquin {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 100;
+}
+.type-cinzeldecor-palanquin h1, .type-cinzeldecor-palanquin h2, .type-cinzeldecor-palanquin h3, .type-cinzeldecor-palanquin h4, .type-cinzeldecor-palanquin h5, .type-cinzeldecor-palanquin h6 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-cinzeldecor-palanquin h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-cinzeldecor-palanquin h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-cinzeldecor-palanquin h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-cinzeldecor-palanquin h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-cinzeldecor-palanquin h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-cinzeldecor-palanquin h6 {font-size: 1.15rem; margin: 0.5rem 0 0.5rem; }
+.type-cinzeldecor-palanquin p {margin:0.8rem 0 0.8rem;}
+/* .type-cinzeldecor-palanquin ul, .type-cinzeldecor-palanquin ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-cinzeldecor-palanquin .display { margin-bottom: 0.5rem; }
+.type-cinzeldecor-palanquin .display h1 {
+	font-family: 'Cinzel Decorative', cursive;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-cinzeldecor-palanquin .display p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

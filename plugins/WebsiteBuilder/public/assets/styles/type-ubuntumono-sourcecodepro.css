@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.type-ubuntumono-sourcecodepro {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: -0.7px;
+}
+.type-ubuntumono-sourcecodepro h1, .type-ubuntumono-sourcecodepro h2, .type-ubuntumono-sourcecodepro h3, .type-ubuntumono-sourcecodepro h4, .type-ubuntumono-sourcecodepro h5, .type-ubuntumono-sourcecodepro h6 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-ubuntumono-sourcecodepro h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-ubuntumono-sourcecodepro h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-ubuntumono-sourcecodepro h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-ubuntumono-sourcecodepro h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-ubuntumono-sourcecodepro h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-ubuntumono-sourcecodepro h6 {font-size: 1.15rem; margin: 0.5rem 0 0.5rem; }
+.type-ubuntumono-sourcecodepro p {margin:0.8rem 0 0.8rem;}
+/* .type-ubuntumono-sourcecodepro ul, .type-ubuntumono-sourcecodepro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-ubuntumono-sourcecodepro .display { margin-bottom: 0.5rem; }
+.type-ubuntumono-sourcecodepro .display h1 {
+	font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-ubuntumono-sourcecodepro .display p {
+    font-size: 1.5rem;
+}

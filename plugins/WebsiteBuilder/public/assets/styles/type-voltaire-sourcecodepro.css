@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.type-voltaire-sourcecodepro {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-voltaire-sourcecodepro h1, .type-voltaire-sourcecodepro h2, .type-voltaire-sourcecodepro h3, .type-voltaire-sourcecodepro h4, .type-voltaire-sourcecodepro h5, .type-voltaire-sourcecodepro h6 {
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}        
+
+.type-voltaire-sourcecodepro h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-voltaire-sourcecodepro h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-voltaire-sourcecodepro h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-voltaire-sourcecodepro h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-voltaire-sourcecodepro h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-voltaire-sourcecodepro h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-voltaire-sourcecodepro p {margin:0.8rem 0 0.8rem;}
+/* .type-voltaire-sourcecodepro ul, .type-voltaire-sourcecodepro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-voltaire-sourcecodepro .display { margin-bottom: 0.5rem; }
+.type-voltaire-sourcecodepro .display h1 {
+	font-family: 'Voltaire', sans-serif;
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0.4rem 0 1rem;
+}
+.type-voltaire-sourcecodepro .display p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

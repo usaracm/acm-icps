@@ -1,0 +1,15 @@
+{
+    "name": "leconfe/certificatemanager",
+    "autoload": {
+        "psr-4": {
+            "CertificateManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leconfe"
+        }
+    ],
+    "require": {},
+    "version": "1.0.0"
+}

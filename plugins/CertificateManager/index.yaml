@@ -1,0 +1,7 @@
+name: 'Certificate Manager'
+folder: CertificateManager
+author: 'Leconfe'
+description: 'Manage and generate Certificate in Leconfe'
+version: 1.2.0
+targets: 
+  - scheduled-conference

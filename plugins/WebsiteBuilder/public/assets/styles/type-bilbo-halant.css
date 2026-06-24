@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap');
+
+.type-bilbo-halant {
+    font-family: 'Halant', serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-bilbo-halant h1, .type-bilbo-halant h2, .type-bilbo-halant h3, .type-bilbo-halant h4, .type-bilbo-halant h5, .type-bilbo-halant h6 {
+    font-family: 'Bilbo', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-bilbo-halant h1 {font-size: 3.7rem; margin: 1.2rem 0 1.2rem; }
+.type-bilbo-halant h2 {font-size: 3.1rem; margin: 1rem 0 1rem; }
+.type-bilbo-halant h3 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-bilbo-halant h4 {font-size: 2.1rem; margin: 0.5rem 0 0.5rem; }
+.type-bilbo-halant h5 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-bilbo-halant h6 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-bilbo-halant p {margin:0.8rem 0 0.8rem;}
+/* .type-bilbo-halant ul, .type-bilbo-halant ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-bilbo-halant .display { margin-bottom: 0.5rem; }
+.type-bilbo-halant .display h1 {
+	font-family: 'Bilbo', cursive;
+    font-size: 5.3rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-bilbo-halant .display p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

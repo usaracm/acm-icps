@@ -1,0 +1,69 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}        
+
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.75rem;}
+h4 {font-size: 1.6rem;}
+h5 {font-size: 1.48rem;}
+h6 {font-size: 1.3rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+*/
+body, .is-wrapper {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}        
+
+.is-wrapper h1 {font-size: 2.5rem; margin: 1.2rem 0 1.2rem; }
+.is-wrapper h2 {font-size: 2rem; margin: 1rem 0 1rem; }
+.is-wrapper h3 {font-size: 1.75rem; margin: 1rem 0 1rem; }
+.is-wrapper h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.is-wrapper h5 {font-size: 1.48rem; margin: 0.5rem 0 0.5rem; }
+.is-wrapper h6 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.is-wrapper p {margin:0.8rem 0 0.8rem;}
+.is-wrapper ul, .is-wrapper ol { margin:0 0 1rem; padding-inline-start: 20px;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+.type-macondo-mukta {
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.32rem; 
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-macondo-mukta h1, .type-macondo-mukta h2, .type-macondo-mukta h3, .type-macondo-mukta h4, .type-macondo-mukta h5, .type-macondo-mukta h6 {
+    font-family: 'Macondo', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-macondo-mukta h1 {font-size: 3.6rem; margin: 1.2rem 0 1.2rem; }
+.type-macondo-mukta h2 {font-size: 3rem; margin: 1rem 0 1rem; }
+.type-macondo-mukta h3 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-macondo-mukta h4 {font-size: 2rem; margin: 0.5rem 0 0.5rem; }
+.type-macondo-mukta h5 {font-size: 1.75rem; margin: 0.5rem 0 0.5rem; }
+.type-macondo-mukta h6 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-macondo-mukta p {margin:0.8rem 0 0.8rem;}
+/* .type-macondo-mukta ul, .type-macondo-mukta ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-macondo-mukta .display { margin-bottom: 0.5rem; }
+.type-macondo-mukta .display h1 {
+	font-family: 'Macondo', cursive;
+    font-size: 5.2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-style: normal;
+    margin: 0.4rem 0 1rem;
+}
+.type-macondo-mukta .display p {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-transform: none;
+    font-style: italic;
+}

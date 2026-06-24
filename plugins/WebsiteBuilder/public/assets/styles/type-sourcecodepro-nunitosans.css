@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.type-sourcecodepro-nunitosans {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-sourcecodepro-nunitosans h1, .type-sourcecodepro-nunitosans h2, .type-sourcecodepro-nunitosans h3, .type-sourcecodepro-nunitosans h4, .type-sourcecodepro-nunitosans h5, .type-sourcecodepro-nunitosans h6 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    line-height: 1.15;
+    letter-spacing: 1px;
+}        
+
+.type-sourcecodepro-nunitosans h1 {font-size: 3.3rem; margin: 1.2rem 0 1.2rem; }
+.type-sourcecodepro-nunitosans h2 {font-size: 2.8rem; margin: 1rem 0 1rem; }
+.type-sourcecodepro-nunitosans h3 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-sourcecodepro-nunitosans h4 {font-size: 2rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcecodepro-nunitosans h5 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcecodepro-nunitosans h6 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcecodepro-nunitosans p {margin:0.8rem 0 0.8rem;}
+/* .type-sourcecodepro-nunitosans ul, .type-sourcecodepro-nunitosans ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sourcecodepro-nunitosans .display { margin-bottom: 0.5rem; }
+.type-sourcecodepro-nunitosans .display h1 {
+	font-family: 'Source Code Pro', monospace;
+    font-size: 5.6rem;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-sourcecodepro-nunitosans .display p {
+    font-size: 1.48rem;
+    letter-spacing: 2px;
+}

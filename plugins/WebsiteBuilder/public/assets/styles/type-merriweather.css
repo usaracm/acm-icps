@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.type-merriweather {
+    font-family: 'Merriweather', serif;
+    font-size: 1.11rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-merriweather h1, .type-merriweather h2, .type-merriweather h3, .type-merriweather h4, .type-merriweather h5, .type-merriweather h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 1.2;
+}        
+
+.type-merriweather h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-merriweather h2 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-merriweather h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-merriweather h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweather h5 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweather h6 {font-size: 1.11rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweather p {margin:0.8rem 0 0.8rem;}
+/* .type-merriweather ul, .type-merriweather ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-merriweather .display { margin-bottom: 0.5rem; }
+.type-merriweather .display h1 {
+    font-weight: 300;
+    font-size: 3.4rem;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-merriweather .display p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}

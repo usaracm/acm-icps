@@ -1,0 +1,35 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.type-opensans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.07rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.type-opensans h1, .type-opensans h2, .type-opensans h3, .type-opensans h4, .type-opensans h5, .type-opensans h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}        
+
+.type-opensans h1 {font-size: 2.5rem; margin: 1.2rem 0 1.2rem; }
+.type-opensans h2 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-opensans h3 {font-size: 1.75rem; margin: 1rem 0 1rem; }
+.type-opensans h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-opensans h5 {font-size: 1.48rem; margin: 0.5rem 0 0.5rem; }
+.type-opensans h6 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-opensans p {margin:0.8rem 0 0.8rem;}
+/* .type-opensans ul, .type-opensans ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-opensans .display { margin-bottom: 0.5rem; }
+.type-opensans .display h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    margin: 0.4rem 0 1rem;
+}
+.type-opensans .display p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}

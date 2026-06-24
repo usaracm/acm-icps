@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body, .is-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.28rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-family: 'The Girl Next Door', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;  
+}        
+
+.is-wrapper h1 {font-size: 3.2rem;}
+.is-wrapper h2 {font-size: 2.5rem;}
+.is-wrapper h3 {font-size: 2.1rem;}
+.is-wrapper h4 {font-size: 1.8rem;}
+.is-wrapper h5 {font-size: 1.5rem;}
+.is-wrapper h6 {font-size: 1.28rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+	font-family: 'The Girl Next Door', cursive;
+    font-size: 4.7rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}

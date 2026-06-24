@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+ 
+.type-poiretone-pridi {
+    font-family: 'Pridi', serif;
+    font-size: 1.16rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-poiretone-pridi h1, .type-poiretone-pridi h2, .type-poiretone-pridi h3, .type-poiretone-pridi h4, .type-poiretone-pridi h5, .type-poiretone-pridi h6 {
+    font-family: 'Pridi', serif;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: 1px; 
+}        
+
+.type-poiretone-pridi h1 {font-size: 3.2rem;line-height: 1.17; margin: 1.2rem 0 1.2rem; }
+.type-poiretone-pridi h2 {font-size: 2.6rem;line-height: 1.17; margin: 1rem 0 1rem; }
+.type-poiretone-pridi h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-poiretone-pridi h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-poiretone-pridi h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-poiretone-pridi h6 {font-size: 1.16rem;font-weight: 400; margin: 0.5rem 0 0.5rem; }
+.type-poiretone-pridi p {margin:0.8rem 0 0.8rem;}
+/* .type-poiretone-pridi ul, .type-poiretone-pridi ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-poiretone-pridi .display { margin-bottom: 0.5rem; }
+.type-poiretone-pridi .display h1 {
+	font-family: 'Poiret One', cursive;
+    font-size: 5.2rem;
+    letter-spacing: 4px;
+    line-height: 1.15;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.2rem 0 1rem;
+}
+.type-poiretone-pridi .display p {
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

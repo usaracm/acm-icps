@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.type-caveat-sourcecodepro {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.02rem; 
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-caveat-sourcecodepro h1, .type-caveat-sourcecodepro h2, .type-caveat-sourcecodepro h3, .type-caveat-sourcecodepro h4, .type-caveat-sourcecodepro h5, .type-caveat-sourcecodepro h6 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-caveat-sourcecodepro h1 {font-size: 3.6rem; margin: 1.2rem 0 1.2rem; }
+.type-caveat-sourcecodepro h2 {font-size: 3.1rem; margin: 1rem 0 1rem; }
+.type-caveat-sourcecodepro h3 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-caveat-sourcecodepro h4 {font-size: 2.1rem; margin: 0.5rem 0 0.5rem; }
+.type-caveat-sourcecodepro h5 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-caveat-sourcecodepro h6 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-caveat-sourcecodepro p {margin:0.8rem 0 0.8rem;}
+/* .type-caveat-sourcecodepro ul, .type-caveat-sourcecodepro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-caveat-sourcecodepro .display { margin-bottom: 0.5rem; }
+.type-caveat-sourcecodepro .display h1 {
+	font-family: 'Caveat', cursive;
+    font-size: 4.7rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.type-caveat-sourcecodepro .display p {
+    font-size: 1.3rem;
+    font-style: normal;
+    letter-spacing: 0px;
+}

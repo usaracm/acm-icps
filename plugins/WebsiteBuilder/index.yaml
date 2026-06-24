@@ -1,0 +1,6 @@
+name: 'Website Builder'
+folder: 'WebsiteBuilder'
+author: 'Leconfe'
+description: 'This plugin provides tools to build and customize pages within the application.'
+version: 1.1.1
+type: 'theme'

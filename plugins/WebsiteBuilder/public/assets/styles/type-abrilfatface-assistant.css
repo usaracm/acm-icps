@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+.type-abrilfatface-assistant {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.13rem; 
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-abrilfatface-assistant h1, .type-abrilfatface-assistant h2, .type-abrilfatface-assistant h3, .type-abrilfatface-assistant h4, .type-abrilfatface-assistant h5, .type-abrilfatface-assistant h6 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-abrilfatface-assistant h1 {font-size: 3.1rem; margin: 1.2rem 0 1.2rem; }
+.type-abrilfatface-assistant h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-abrilfatface-assistant h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-abrilfatface-assistant h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-abrilfatface-assistant h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-abrilfatface-assistant h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-abrilfatface-assistant p {margin:0.8rem 0 0.8rem;}
+/* .type-abrilfatface-assistant ul, .type-abrilfatface-assistant ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-abrilfatface-assistant .display { margin-bottom: 0.5rem; }
+.type-abrilfatface-assistant .display h1 {
+	font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-abrilfatface-assistant .display p {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

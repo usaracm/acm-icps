@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+.type-playfairdisp-petitformalscr {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.12rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.type-playfairdisp-petitformalscr h1, .type-playfairdisp-petitformalscr h2, .type-playfairdisp-petitformalscr h3, .type-playfairdisp-petitformalscr h4, .type-playfairdisp-petitformalscr h5, .type-playfairdisp-petitformalscr h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.2;  
+}        
+
+.type-playfairdisp-petitformalscr h1 {font-size: 3.2rem; margin: 1.2rem 0 1.2rem; }
+.type-playfairdisp-petitformalscr h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-playfairdisp-petitformalscr h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-playfairdisp-petitformalscr h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-playfairdisp-petitformalscr h5 {font-size: 1.35rem; margin: 0.5rem 0 0.5rem; }
+.type-playfairdisp-petitformalscr h6 {font-size: 1.12rem; margin: 0.5rem 0 0.5rem; }
+.type-playfairdisp-petitformalscr p {margin:0.8rem 0 0.8rem;}
+/* .type-playfairdisp-petitformalscr ul, .type-playfairdisp-petitformalscr ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-playfairdisp-petitformalscr .display { margin-bottom: 0.5rem; }
+.type-playfairdisp-petitformalscr .display h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 7px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-playfairdisp-petitformalscr .display p {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.5rem;
+}

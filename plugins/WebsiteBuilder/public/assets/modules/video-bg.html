@@ -1,0 +1,988 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <style>
+        html { height:100%; }
+        body { 
+            margin:3px 25px 20px;
+            background:rgba(0,0,0,0); /*transparent*/
+            height:100%;
+            overflow:hidden;
+            font-family:Sans-Serif;
+            font-size:14px;
+            font-weight:300;
+            line-height:1.7; 
+        }
+        label {width:100%;padding-bottom:3px;display:block;}
+        input[type=text] {
+            font-size:14px;
+            font-weight:300;
+            letter-spacing:1px;
+            border:none;
+            padding:10px;
+            height:45px;
+            box-sizing:border-box
+        }
+        input[type=text]:focus {outline:none}
+        body {opacity:0}
+        /* svg {
+            overflow: hidden;
+            vertical-align: middle;
+            pointer-events: none;
+        }
+        .is-icon-flex {
+            width: 16px;
+            height: 16px;
+        }
+        button.input-select,
+        button.input-select2 {
+            flex:none;
+            width:50px;
+            height:50px;
+            background:transparent;
+            border:none;
+            cursor:pointer;
+        } */
+
+        input[type=text], textarea {
+            width:100%;
+            border-radius: 2px;
+            height: 40px;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin: 0;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            padding: 5px;
+            border:none;
+        }
+
+        .info {font-size: 14px;margin-bottom: 20px;text-align: left;font-style:italic;opacity: 0.8;}
+        
+        select {
+            font-size: 13px;
+            letter-spacing: 1px;
+            height: 35px;
+            line-height: 1.7;
+            border-radius: 4px;
+            border: none;
+            width: auto; 
+            display: inline-block;
+            background-image: none;
+            -webkit-appearance: menulist;
+            -moz-appearance: menulist;
+            appearance: menulist;
+            padding: 0 5px;
+        }
+        
+        button {
+            width: auto;
+            height: 36px;
+            line-height: 1;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0 15px;
+            border: none;
+            cursor: pointer;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-size: 11px;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            border-radius: 2px;
+            box-shadow: 0px 3px 6px -6px rgb(0 0 0 / 32%);  
+        }
+        button span {
+            margin-left: 8px;
+            font-size: 11px;
+        }
+        svg {
+            overflow: hidden;
+            vertical-align: middle;
+            pointer-events: none;
+        }
+        .is-icon-flex {
+            width: 16px;
+            height: 16px;
+        }
+        .flex {
+            display: flex;
+        }
+        
+        #divVidOpts > div {
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+            padding: 0 0 5px;
+        }
+        #divVidOpts > div button {
+            background-color: transparent;
+            box-shadow: none;
+            height: 30px;
+        }
+
+        .is-btn-color {
+            border: rgba(200,200,200,0.5) 1px solid !important;
+        }
+    </style>
+</head>
+<body>
+    <svg width="0" height="0" style="position:absolute;display:none;">
+        <defs>
+            <symbol viewBox="0 0 512 512" id="ion-image"><path d="M368 224c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48z"></path><path d="M452 64H60c-15.6 0-28 12.7-28 28.3v327.4c0 15.6 12.4 28.3 28 28.3h392c15.6 0 28-12.7 28-28.3V92.3c0-15.6-12.4-28.3-28-28.3zM348.9 261.7c-3-3.5-7.6-6.2-12.8-6.2-5.1 0-8.7 2.4-12.8 5.7L304.6 277c-3.9 2.8-7 4.7-11.5 4.7-4.3 0-8.2-1.6-11-4.1-1-.9-2.8-2.6-4.3-4.1L224 215.3c-4-4.6-10-7.5-16.7-7.5-6.7 0-12.9 3.3-16.8 7.8L64 368.2V107.7c1-6.8 6.3-11.7 13.1-11.7h357.7c6.9 0 12.5 5.1 12.9 12l.3 260.4-99.1-106.7z"></path></symbol>
+            <symbol viewBox="0 0 512 512" id="ion-ios-film-outline"><path d="M56 88v336h400V88H56zm72 320H72v-48h56v48zm0-64H72v-48h56v48zm0-64H72v-48h56v48zm0-64H72v-48h56v48zm0-64H72v-48h56v48zm240 256H144V264h224v144zm0-160H144V104h224v144zm72 160h-56v-48h56v48zm0-64h-56v-48h56v48zm0-64h-56v-48h56v48zm0-64h-56v-48h56v48zm0-64h-56v-48h56v48z"></path></symbol>
+            <symbol viewBox="0 0 24 24" id="icon-trash" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="4" y1="7" x2="20" y2="7"></line>
+                <line x1="10" y1="11" x2="10" y2="17"></line>
+                <line x1="14" y1="11" x2="14" y2="17"></line>
+                <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+             </symbol>
+             <symbol viewBox="0 0 512 512" id="ion-ios-plus-empty"><path d="M384 265H264v119h-17V265H128v-17h119V128h17v120h120v17z"></path></symbol>
+             <symbol viewBox="0 0 512 512" id="ion-more"><path d="M113.7 304C86.2 304 64 282.6 64 256c0-26.5 22.2-48 49.7-48 27.6 0 49.8 21.5 49.8 48 0 26.6-22.2 48-49.8 48zM256 304c-27.5 0-49.8-21.4-49.8-48 0-26.5 22.3-48 49.8-48 27.5 0 49.7 21.5 49.7 48 0 26.6-22.2 48-49.7 48zM398.2 304c-27.5 0-49.8-21.4-49.8-48 0-26.5 22.2-48 49.8-48 27.5 0 49.8 21.5 49.8 48 0 26.6-22.2 48-49.8 48z"></path></symbol>
+             <symbol viewBox="0 0 512 512" id="ion-ios-close-empty"><path d="M340.2 160l-84.4 84.3-84-83.9-11.8 11.8 84 83.8-84 83.9 11.8 11.7 84-83.8 84.4 84.2 11.8-11.7-84.4-84.3 84.4-84.2z"></path></symbol>
+
+            <symbol id="icon-upload" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                <path d="M7 9l5 -5l5 5"></path>
+                <path d="M12 4l0 12"></path>
+            </symbol>
+        </defs>
+    </svg>
+
+    <label id="lblMP4" for="txtMP4" style="width:100%"><span data-lang>Video URL</span>:</label>
+    <div class="drop-video" style="display: flex;">
+        <input id="txtMP4" type="text" style="width:100%;margin-right:2px;" />
+        <button title="Select" class="input-select" style="height:40px;background:transparent"><svg class="is-icon-flex"><use xlink:href="#icon-folder"></use></svg></button>
+
+        <button title="Upload" class="input-upload-video" style="height:40px;background:transparent;display:none;">
+            <svg style="width:16px;height:16px;"><use xlink:href="#icon-upload"></use></svg>
+        </button>
+        <input id="inpVideoFile" type="file" accept="video/mp4" style="display:none" />
+    </div>
+
+    <label id="lblPoster" for="txtPoster" style="width:100%;margin-top:12px;"><span data-lang>Video Poster</span>:</label>
+    <div style="display:flex;">
+        <input id="txtPoster" type="text" style="width:100%;margin-right:2px;" />
+        <button title="Select" class="input-select2" style="height:40px;background:transparent"><svg class="is-icon-flex"><use xlink:href="#icon-folder"></use></svg></button>
+
+        <button title="Upload" class="input-upload-poster" style="height:40px;background:transparent;display:none;">
+            <svg style="width:16px;height:16px;"><use xlink:href="#icon-upload"></use></svg>
+        </button>
+        <input id="inpPosterFile" type="file" accept="image/*" style="display:none" />
+    </div>
+
+
+    <!------>
+    <div id="divVideos" style="margin:20px 0 15px;">
+        <label><span data-lang>Alternate Videos</span>:</label>
+        <div id="divVidOpts" style="padding-bottom:10px;max-height: 137px;overflow-y: auto;"></div>
+
+        <div class="flex">
+            <select id="inpVideoType" style="margin-right:5px;">
+                <option value="240">240p</option>
+                <option value="360">360p</option>
+                <option value="480">480p</option>
+                <option value="540">540p</option>
+                <option value="720">720p</option>
+                <option value="1080" selected>1080p</option>
+                <option value="1440">1440p</option>
+                <option value="2160">2160p</option>
+            </select>
+            <button title="Add/Update Video" data-lang-title class="input-add-video" style="margin-right:3px;">
+                <svg class="is-icon-flex" style="width: 19px;height: 19px;"><use xlink:href="#ion-ios-plus-empty"></use></svg>
+                <span data-lang>Add/Update Video</span>
+            </button>
+
+            <button title="Select" data-lang-title class="input-select-video" style="flex:none;">
+                <svg class="is-icon-flex"><use xlink:href="#icon-folder"></use></svg>
+            </button>
+        </div>
+    </div>
+    <!------>
+
+    <div class="flex">
+        <div class="flex" style="align-items:center;margin-right:20px;">
+            <label id="lblOverlay" for="txtOverlay" style="margin-right:4px;width:auto;display:inline-block;"><span data-lang>Overlay Opacity</span>:</label>   
+            <input id="txtOverlay" type="text" style="width:80px;" value="0.25" />
+        </div>
+    </div>
+
+    <div style="margin-top:15px"><span data-lang>Show Control</span>:</div>
+
+    <div class="flex" style="margin-top:5px">
+        <div class="flex" style="align-items:center;margin-right:20px;width:100%;">
+            <label for="chkShowPlayButton" class="flex" style="align-items:center;white-space:nowrap;margin-right:10px;padding:0;">
+                <input id="chkShowPlayButton" type="checkbox"> <span data-lang>Play/Pause</span>
+            </label>
+
+            <label for="chkShowMuteButton" class="flex" style="align-items:center;white-space:nowrap;margin-right:20px;padding:0;">
+                <input id="chkShowMuteButton" type="checkbox"> <span data-lang>Mute/Unmute</span>
+            </label>
+
+            <select id="inpVideoControlPos" style="margin-right:5px;">
+                <option value="top-left" data-lang>Top Left</option>
+                <option value="top-right" data-lang>Top Right</option>
+                <option value="bottom-left" data-lang>Bottom Left</option>
+                <option value="bottom-right" selected data-lang>Bottom Right</option>
+            </select>
+
+            <label for="btnControlColor" style="padding:0;">
+                <button id="btnControlColor" data-lang-title title="Control Color" class="is-btn-color" style="width:35px;height:35px;margin-left:5px;"></button>
+            </label>
+        </div>
+        <label class="flex" style="white-space:nowrap;align-items:center;width:auto;padding:0;">
+            <input id="chkAutoplay" type="checkbox" />  <span data-lang>Autoplay</span>&nbsp;
+        </label>
+    </div>
+
+    <script>
+
+        // -----
+        var jsonVidOpts = [];
+        // -----
+
+        var inpMP4 = document.querySelector('#txtMP4');
+        var inpPoster = document.querySelector('#txtPoster');
+        var inpOpacity = document.querySelector('#txtOverlay');
+        var chkShowPlayButton = document.querySelector('#chkShowPlayButton');
+        var chkShowMuteButton = document.querySelector('#chkShowMuteButton');
+        var inpVideoControlPos = document.querySelector('#inpVideoControlPos');
+        var btnControlColor = document.querySelector("#btnControlColor");
+
+
+        var builder = parent.contentbox || parent._cb;
+
+        // ---- Upload Video ----
+        var base64Video = ''; // demo support using base64
+        var inpVideoFile = document.querySelector("#inpVideoFile");
+        var btnUploadVideo = document.querySelector(".input-upload-video");
+        if(builder.onVideoUpload) {
+            btnUploadVideo.style.display = ''; // show
+
+            btnUploadVideo.addEventListener('click', () => {
+                inpVideoFile.click();
+            });
+            inpVideoFile.addEventListener('change', (e) => {
+                // Start uploading
+                builder.editor.onAssetUpload = (url) => {
+                    // finish uploading
+                    if(url.indexOf('base64')!==-1) {
+                        inpMP4.value = 'video (base64)';
+                        base64Video = url;
+                    } else {
+                        inpMP4.value = url;
+                        base64Video = '';
+                    }
+                }
+                builder.onVideoUpload(e);
+            });
+        }
+        // ---- /Upload Video ----
+
+        // ---- Upload Poster ----
+        var base64VPoster = ''; // demo support using base64
+        var inpPosterFile = document.querySelector("#inpPosterFile");
+        var btnUploadPoster = document.querySelector(".input-upload-poster");
+        if(builder.onImageUpload) {
+            btnUploadPoster.style.display = ''; // show
+
+            btnUploadPoster.addEventListener('click', () => {
+                inpPosterFile.click();
+            });
+            inpPosterFile.addEventListener('change', (e) => {
+                // Start uploading
+                builder.editor.onAssetUpload = (url) => {
+                    // finish uploading
+                    base64VPoster = '';
+                    if(url.indexOf('base64')!==-1) {
+                        inpPoster.value = 'image (base64)';
+                        base64VPoster = url;
+                    } else {
+                        inpPoster.value = url;
+                        base64VPoster = '';
+                    }
+                }
+                builder.onImageUpload(e);
+            });
+        }
+        // ---- /Upload Poster ----
+
+        var btnSelect = document.querySelector('.input-select');
+        if (parent._cb.opts.onVideoSelectClick || parent._cb.opts.videoSelect ) {
+            var inpMP4 = document.querySelector('#txtMP4');
+            btnSelect.addEventListener('click', function(e) {
+                parent._cb.openAsset(inpMP4,'video',btnSelect);
+            });
+        } else {
+            btnSelect.style.display = 'none';
+        }
+        
+        var btnSelect2 = document.querySelector('.input-select2');
+        if (parent._cb.opts.onImageSelectClick || parent._cb.opts.imageSelect ) {
+            var inpPoster = document.querySelector('#txtPoster');
+            btnSelect2.addEventListener('click', function(e) {
+                parent._cb.openAsset(inpPoster,'image',btnSelect2);
+            });
+        } else {
+            btnSelect2.style.display = 'none';
+        }
+        
+        var settings = getSettings();
+        if (settings != 'undefined') {
+            try {
+                var json = JSON.parse(settings);
+
+                if(json[0].mp4.indexOf('base64')!==-1) {
+                    inpMP4.value = 'video (base64)';
+                    base64Video = json[0].mp4;
+                } else {
+                    inpMP4.value = json[0].mp4;
+                    base64Video = '';
+                }
+
+                if(json[0].poster.indexOf('base64')!==-1) {
+                inpPoster.value = '';
+                    inpPoster.value = 'image (base64)';
+                    base64VPoster = json[0].poster;
+                } else { 
+                    inpPoster.value = json[0].poster;
+                    base64VPoster = '';
+                }
+
+                inpOpacity.value = json[0].overlay;
+
+                chkShowPlayButton.checked = false;
+                chkShowMuteButton.checked = false;
+                inpVideoControlPos.value = 'bottom-right';
+                chkAutoplay.checked = true;
+                btnControlColor.style.backgroundColor = '';
+                btnControlColor.setAttribute('data-color', '');
+                if(json[0].controlPlay) chkShowPlayButton.checked = json[0].controlPlay;
+                if(json[0].controlMute) chkShowMuteButton.checked = json[0].controlMute;
+                if(json[0].pos) inpVideoControlPos.value = json[0].pos;
+                if(Object.prototype.hasOwnProperty.call(json[0], 'autoplay')) chkAutoplay.checked = json[0].autoplay;
+                if(Object.prototype.hasOwnProperty.call(json[0], 'controlColor'))  {
+                    btnControlColor.style.backgroundColor = json[0].controlColor;
+                    btnControlColor.setAttribute('data-color', json[0].controlColor);
+                }
+
+                // -----
+                for(var i=0;i<json[0].videos.length;i++) {
+                    let n = json[0].videos[i];
+
+                    let sv = '';
+                    let s240 = n.src240;
+                    let s360 = n.src360;
+                    let s480 = n.src480;
+                    let s540 = n.src540;
+                    let s720 = n.src720;
+                    let s1080 = n.src1080;
+                    let s1440 = n.src1440;
+                    let s2160 = n.src2160;
+
+                    if(s240) jsonVidOpts.push({ type: 240, src: s240 });
+                    if(s360) jsonVidOpts.push({ type: 360, src: s360 });
+                    if(s480) jsonVidOpts.push({ type: 480, src: s480 });
+                    if(s540) jsonVidOpts.push({ type: 540, src: s540 });
+                    if(s720) jsonVidOpts.push({ type: 720, src: s720 });
+                    if(s1080) jsonVidOpts.push({ type: 1080, src: s1080 });
+                    if(s1440) jsonVidOpts.push({ type: 1440, src: s1440 });
+                    if(s2160) jsonVidOpts.push({ type: 2160, src: s2160 });
+                }
+
+                renderVideoOptions();
+                // -----
+
+            } catch (e) { }
+        }
+
+
+        // -----
+        function addVideo(s) {
+            inpVideoType = document.querySelector('#inpVideoType');
+            let update = false;
+            jsonVidOpts.forEach(vid=>{
+                if(parseInt(inpVideoType.value)===vid.type) {
+                    vid.src = s;
+                    update=true;
+                }
+            });
+            if(!update) {
+                jsonVidOpts.push({ type: parseInt(inpVideoType.value), src: s })
+            }
+
+            renderVideoOptions();
+        }
+        var btnAddVideo = document.querySelector('.input-add-video');
+        btnAddVideo.addEventListener('click', function() {
+
+            let val = '';
+            inpVideoType = document.querySelector('#inpVideoType');
+            
+            jsonVidOpts.forEach(vid=>{
+                if(parseInt(inpVideoType.value)===vid.type) {
+                    val = vid.src;
+                }
+            });
+
+            parent._cb.openMediaPicker(val, 'video', function(s){
+                if(s==='') return;
+                addVideo(s);
+            });
+        });
+        var btnSelectVideo = document.querySelector('.input-select-video');
+        parent._cb.renderSelectAsset(btnSelectVideo, 'video', (s)=>{
+            addVideo(s);
+        });
+        if (!parent._cb.onVideoSelectClick && !parent._cb.videoSelect ) {
+            btnSelectVideo.style.display = 'none';
+        }
+        // -----
+
+
+        var colorpicker = parent._cb.colorpicker();
+
+        var btnControlColor = document.querySelector('#btnControlColor');
+        btnControlColor.addEventListener('click', function() {
+
+            let currentColor = btnControlColor.style.backgroundColor; // default color
+
+            colorpicker.open((color)=>{
+
+                btnControlColor.style.backgroundColor = color; // preview
+
+                btnControlColor.setAttribute('data-color', color); // save color value for later read when needed
+
+
+            }, currentColor, ()=>{}, btnControlColor);
+        });
+
+
+
+        // -----
+        function renderVideoOptions() {
+            let item = document.querySelector('#imageList div.active');
+           
+            const divVidOpts = document.querySelector('#divVidOpts');
+            divVidOpts.innerHTML='';
+            jsonVidOpts.forEach(vid=>{
+                let filename = vid.src.substring(vid.src.lastIndexOf('/')+1); 
+                divVidOpts.insertAdjacentHTML('beforeend', `<div>
+                    <div><b>${vid.type}p</b>: ${filename}</div><button data-type="${vid.type}" class="remove-video-option"><svg class="is-icon-flex"><use xlink:href="#icon-trash"></use></svg></button>
+                </div>`);
+            });
+
+            const btns = document.querySelectorAll('.remove-video-option');
+            btns.forEach(btn=>{
+                btn.addEventListener('click',()=>{
+
+                    let vidType = btn.getAttribute('data-type');
+
+                    jsonVidOpts = jsonVidOpts.filter((vid)=>{
+                        if(parseInt(vidType)===vid.type) {
+                            return false;
+                        }
+
+                        return true;
+                    });
+                    renderVideoOptions();
+                    
+                });
+            });
+        }
+        // -----
+
+        /*
+        Use construct() function to construct html & settings
+        */
+        function construct() {
+            var inpMP4 = document.querySelector('#txtMP4');
+            var inpPoster = document.querySelector('#txtPoster');
+
+            var videoUrl = inpMP4.value;
+            if(videoUrl==='video (base64)') videoUrl = base64Video;
+
+            var posterUrl = inpPoster.value;
+            if(posterUrl==='image (base64)') posterUrl = base64VPoster;
+
+            var inpOpacity = document.querySelector('#txtOverlay');
+            var chkShowPlayButton = document.querySelector('#chkShowPlayButton');
+            var chkShowMuteButton = document.querySelector('#chkShowMuteButton');
+            var inpVideoControlPos = document.querySelector('#inpVideoControlPos');
+            var chkAutoplay = document.querySelector('#chkAutoplay');
+            var btnControlColor = document.querySelector("#btnControlColor");
+            var controlColor = btnControlColor.getAttribute('data-color')?btnControlColor.getAttribute('data-color'):'';
+
+            var hideClass = '';
+            if(!chkShowPlayButton.checked && !chkShowMuteButton.checked) {
+                hideClass = ' hide';
+            }
+
+            var hidePlayClass = '';
+            if(!chkShowPlayButton.checked) {
+                hidePlayClass = ' hide';
+            }
+
+            var hideMuteClass = '';
+            if(!chkShowMuteButton.checked) {
+                hideMuteClass = ' hide';
+            }
+
+            var posClass = ' ' + inpVideoControlPos.value;
+
+            // var posterImage = inpPoster.value!==''?inpPoster.value:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+P///38ACfsD/QVDRcoAAAAASUVORK5CYII=';
+            
+            // -----
+            let vs = '';
+            let jsonItem = '';
+            jsonVidOpts.forEach(vid=>{
+                vs += ` data-${vid.type}="${vid.src}"`;
+
+                if(jsonItem==='') jsonItem += `{"src${vid.type}": "${vid.src}"}`;
+                else jsonItem += `,{"src${vid.type}": "${vid.src}"}`;
+            });
+            // -----
+
+            var html = `
+            <div id="_style_{id}" style="display:none">
+                .video-bg-control {position:absolute;}
+                .video-bg-control button {cursor:pointer;background:transparent;}
+                .video-bg-control.top-right { top:20px;right:20px; }
+                .video-bg-control.top-left { top:20px;left:20px; }
+                .video-bg-control.bottom-right { bottom:20px;right:20px; }
+                .video-bg-control.bottom-left { bottom:20px;left:20px; }
+                .video-bg-control svg { width:40px; height:40px; }
+                .video-bg-control.hide, .video-audio-play.hide , .video-bg-play.hide { display:none }
+                ${controlColor!==''?`
+                #{id}_control * {
+                    stroke: ${controlColor} !important;
+                }
+                `:`
+                #{id}_control * {
+                    stroke: rgba(255,255,255,0.93);
+                }
+                .is-light-text #{id}_control * {
+                    stroke: rgba(255,255,255,0.93);
+                }
+                .is-dark-text #{id}_control * {
+                    stroke: #000;
+                }
+                `}
+            </div>
+            <video id="{id}" class="is-video-bg"${inpPoster.value!==''?` poster="${posterUrl}"`:''} loop playsinline${chkAutoplay.checked?' muted autoplay':''}>
+                <source src="{assetpath}videos/blank.mp4" data-default="${videoUrl}"${vs}>
+            </video>
+            <div class="is-overlay-video" style="opacity:${inpOpacity.value}"></div>
+
+            <div id="{id}_control" class="video-bg-control${hideClass}${posClass}">
+                <button class="video-audio-play${hideMuteClass}${posClass}">
+                    ${chkAutoplay.checked?'<svg class="is-icon-flex"><use xlink:href="#__icon-volume-off"></use></svg>':'<svg class="is-icon-flex"><use xlink:href="#__icon-volume"></use></svg>'}
+                </button>
+                <button class="video-bg-play${hidePlayClass}${posClass}">
+                    ${chkAutoplay.checked?'<svg class="is-icon-flex"><use xlink:href="#__icon-pause"></use></svg>':'<svg class="is-icon-flex"><use xlink:href="#__icon-play"></use></svg>'}
+                </button>
+            </div>
+            
+            <scr`+`ipt>
+                var css = document.querySelector('#_style_{id}').innerHTML;
+                var head = document.getElementsByTagName('head')[0];
+                var s = document.createElement('style');
+                s.appendChild(document.createTextNode(css));
+                head.appendChild(s);
+
+                var svgDef = '<svg class="video-bg-svg" width="0" height="0" style="position:absolute;display:none;">' +
+                    '<defs>' +
+                        '<symbol id="__icon-volume-off" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">' +
+                            '<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>' +
+                            '<path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5 5 0 0 1 -.535 .464"></path>' +
+                            '<path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9 9 0 0 1 -.686 .615"></path>' +
+                            '<path d="M9.069 5.054l.431 -.554a0.8 .8 0 0 1 1.5 .5v2m0 4v8a0.8 .8 0 0 1 -1.5 .5l-3.5 -4.5h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l1.294 -1.664"></path>' +
+                            '<path d="M3 3l18 18"></path>' +
+                        '</symbol>' +
+                        '<symbol id="__icon-volume" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">' +
+                            '<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>' +
+                            '<path d="M15 8a5 5 0 0 1 0 8"></path>' +
+                            '<path d="M17.7 5a9 9 0 0 1 0 14"></path>' +
+                            '<path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a0.8 .8 0 0 1 1.5 .5v14a0.8 .8 0 0 1 -1.5 .5l-3.5 -4.5"></path>' +
+                        '</symbol>' +
+                        '<symbol id="__icon-play" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">' +
+                            '<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>' +
+                            '<path d="M7 4v16l13 -8z"></path>' +
+                        '</symbol>' +
+                        '<symbol id="__icon-pause" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">' +
+                            '<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>' +
+                            '<path d="M6 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"></path>' +
+                            '<path d="M14 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z"></path>' +
+                        '</symbol>' +
+                    '</defs>' +
+                '</svg>';
+                var pre = document.querySelector('.video-bg-svg');
+                if(!pre) {
+                    document.body.insertAdjacentHTML('beforeend', svgDef);
+                }
+
+                var docReady = function(fn) {
+                    var stateCheck = setInterval(function() {
+                        if (document.readyState === "interactive" || document.readyState === "complete") {
+                            clearInterval(stateCheck);
+                            try {
+                                fn()
+                            } catch (e) {}
+                        } 
+                    }, 1);
+                };
+
+                docReady(function() {
+                    
+                    let video = document.querySelector('#{id}');
+
+                    const changeVideo = (video) => {
+                        if(!video) return;
+                        let currentlyPlaying;
+                        if (video.paused) {
+                            currentlyPlaying = false;
+                        } else {
+                            currentlyPlaying = true;
+                        }
+                        let changed=false;
+                        let source = video.querySelector('source');
+                        let vidDefault = source.getAttribute('data-default');
+                        let vid240 = source.getAttribute('data-240');
+                        let vid360 = source.getAttribute('data-360');
+                        let vid480 = source.getAttribute('data-480');
+                        let vid540 = source.getAttribute('data-540');
+                        let vid720 = source.getAttribute('data-720');
+                        let vid1080 = source.getAttribute('data-1080');
+                        let vid1440 = source.getAttribute('data-1440');
+                        let vid2160 = source.getAttribute('data-2160');
+                        let vW = window.innerWidth;
+                        if(vW<=426) {
+                            if(vid240) {
+                                if(source.getAttribute('src')!==vid240) {
+                                    source.setAttribute('src', vid240);changed=true;
+                                } else return;
+                            }
+                            else if(vid360) {
+                                if(source.getAttribute('src')!==vid360) {
+                                    source.setAttribute('src', vid360);changed=true;
+                                } else return;
+                            }
+                            else if(vid480) {
+                                if(source.getAttribute('src')!==vid480) {
+                                    source.setAttribute('src', vid480);changed=true;
+                                } else return;
+                            }
+                            else if(vid540) {
+                                if(source.getAttribute('src')!==vid540) {
+                                    source.setAttribute('src', vid540);changed=true;
+                                } else return;
+                            }
+                            else if(vid720) {
+                                if(source.getAttribute('src')!==vid720) {
+                                    source.setAttribute('src', vid720);changed=true;
+                                } else return;
+                            }
+                        } else if (426<vW && vW<=640) {
+                            if(vid360) {
+                                if(source.getAttribute('src')!==vid360) {
+                                    source.setAttribute('src', vid360);changed=true;
+                                } else return;
+                            }
+                            else if(vid480) {
+                                if(source.getAttribute('src')!==vid480) {
+                                    source.setAttribute('src', vid480);changed=true;
+                                } else return;
+                            }
+                            else if(vid540) {
+                                if(source.getAttribute('src')!==vid540) {
+                                    source.setAttribute('src', vid540);changed=true;
+                                } else return;
+                            }
+                            else if(vid720) {
+                                if(source.getAttribute('src')!==vid720) {
+                                    source.setAttribute('src', vid720);changed=true;
+                                } else return;
+                            }
+                        } else if (640<vW && vW<=854) {
+                            if(vid480) {
+                                if(source.getAttribute('src')!==vid480) {
+                                    source.setAttribute('src', vid480);changed=true;
+                                } else return;
+                            }
+                            else if(vid540) {
+                                if(source.getAttribute('src')!==vid540) {
+                                    source.setAttribute('src', vid540);changed=true;
+                                } else return;
+                            }
+                            else if(vid720) {
+                                if(source.getAttribute('src')!==vid720) {
+                                    source.setAttribute('src', vid720);changed=true;
+                                } else return;
+                            }
+                        } else if (854<vW && vW<=960) {
+                            if(vid540) {
+                                if(source.getAttribute('src')!==vid540) {
+                                    source.setAttribute('src', vid540);changed=true;
+                                } else return;
+                            }
+                            else if(vid720) {
+                                if(source.getAttribute('src')!==vid720) {
+                                    source.setAttribute('src', vid720);changed=true;
+                                } else return;
+                            }
+                        } else if (vW>960 && vW<=1280) {
+                            if(vid720) {
+                                if(source.getAttribute('src')!==vid720) {
+                                    source.setAttribute('src', vid720);changed=true;
+                                } else return;
+                            }
+                        } else if (1280<vW && vW<=1920) {
+                            if(vid1080) {
+                                if(source.getAttribute('src')!==vid1080) {
+                                    source.setAttribute('src', vid1080);changed=true;
+                                } else return;
+                            }
+                        } else if (1920<vW && vW<=2560) {
+                            if(vid1440) {
+                                if(source.getAttribute('src')!==vid1440) {
+                                    source.setAttribute('src', vid1440);changed=true;
+                                } else return;
+                            }
+                        } else if (2560<vW) {
+                            if(vid2160) {
+                                if(source.getAttribute('src')!==vid2160) {
+                                    source.setAttribute('src', vid2160);changed=true;
+                                } else return;
+                            }
+                            else if(vid1440) {
+                                if(source.getAttribute('src')!==vid1440) {
+                                    source.setAttribute('src', vid1440);changed=true;
+                                } else return;
+                            }
+                        }
+                        
+                        let videoLoad = false;
+                        if(changed) {
+                            video.pause();
+                            video.currentTime = 0;
+                            video.load();
+                            videoLoad = true;
+                        } else {
+                            if(source.getAttribute('src')!==vidDefault) {
+                                video.pause();
+                                video.currentTime = 0;
+                                source.setAttribute('src', vidDefault);
+                                video.load();
+                                videoLoad = true;
+                            } 
+                        }
+
+                        if(!video) return;
+
+                        if(videoLoad) if(video.autoplay) {
+                            video.pause();
+                            video.currentTime = 0;
+                            // video.play();
+                            let overlay = video.closest('.is-box');
+                            let btnPlay = overlay.querySelector('.video-bg-play');
+                            btnPlay.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-pause"></use></svg>';
+                            let btnAudio = overlay.querySelector('.video-audio-play');
+                            btnAudio.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-volume-off"></use></svg>';
+                        }
+
+                        if(videoLoad) if(currentlyPlaying) {
+                            video.play();
+                        }
+                    };
+                    
+                    changeVideo(video);
+
+                    let debounce = (func) => {
+                        var timer;
+                        return function(event){
+                            if(timer) clearTimeout(timer);
+                            timer = setTimeout(func,100,event);
+                        };
+                    }
+                    let viewportWidth = window.innerWidth;
+                    window.addEventListener('resize',debounce(function(e){
+                        if (window.innerWidth != viewportWidth) {
+
+                            viewportWidth = window.innerWidth;
+
+                            if(video) changeVideo(video);
+                        }
+                    }));
+
+                    let overlay = video.closest('.is-box');
+                    let btnPlay = overlay.querySelector('.video-bg-play');
+                    btnPlay.addEventListener('click', (e)=>{
+                        if (video.paused) {
+                            video.play();
+                            btnPlay.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-pause"></use></svg>';
+                        } else {
+                            video.pause();
+                            btnPlay.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-play"></use></svg>';
+                        }
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                    });
+                    let btnAudio = overlay.querySelector('.video-audio-play');
+                    btnAudio.addEventListener('click', (e)=>{
+                        if (video.muted) {
+                            video.muted = false;
+                            btnAudio.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-volume"></use></svg>';
+                        } else {
+                            video.muted = true;
+                            btnAudio.innerHTML = '<svg class="is-icon-flex"><use xlink:href="#__icon-volume-off"></use></svg>';
+                        }
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                    });
+                });
+
+            </scr`+`ipt>
+            `;
+
+            // html = html.replace(/{id}/g, makeid());
+
+            setHtml(html);
+
+            var settings = '[{"mp4":"' + videoUrl + '","poster":"' + posterUrl + '","videos":[' + jsonItem + '],"overlay":' + inpOpacity.value + ',"controlPlay":' + chkShowPlayButton.checked + ',"controlMute":' + chkShowMuteButton.checked + ',"autoplay":' + chkAutoplay.checked + ',"pos":"' + inpVideoControlPos.value + '","controlColor":"' + controlColor + '"}]';
+
+            setSettings(settings);
+        }
+        
+        /* 
+        COMMON METHODS FOR MODULE.
+        */
+        function getHtml() {
+            var activeModule = parent._cb.doc.querySelector('[data-module-active]');
+            return decodeURIComponent(activeModule.getAttribute('data-html'));
+        }
+
+        function getSettings() {
+            var activeModule = parent._cb.doc.querySelector('[data-module-active]');
+            return decodeURIComponent(activeModule.getAttribute('data-settings'));
+        }
+
+        function setHtml(html) {
+            parent.document.querySelector('#hidModuleCode').value = html;
+        }
+
+        function setSettings(settings) {
+            parent.document.querySelector('#hidModuleSettings').value = settings;
+        }
+
+        function makeid() {
+            var text = '';
+            var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+            for (var i = 0; i < 2; i++)
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+            var text2 = '';
+            var possible2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            for (var i = 0; i < 5; i++)
+                text2 += possible2.charAt(Math.floor(Math.random() * possible2.length));
+
+            return text + text2;
+        }
+
+        // Style stuff
+        function applyParentStyles() {
+            var cssString = `
+                body {
+                    color: ${parent._cb.styleModalColor};
+                }
+                
+                button {
+                    background-color: ${parent._cb.styleButtonClassicBackground};
+                    color: ${parent._cb.styleButtonClassicColor};         
+                }
+                button svg {
+                    fill: ${parent._cb.styleButtonClassicColor};         
+                }
+
+                input[type="text"],
+                textarea {
+                    color: ${parent._cb.styleInputColor};
+                    background-color: ${parent._cb.styleInputBackground};
+                    border-bottom: ${parent._cb.styleInputBorderBottom};
+                }
+                input:focus,
+                textarea:focus {
+                    outline: none;
+                }
+                select {
+                    color: ${parent._cb.styleSelectColor};
+                    background-color: ${parent._cb.styleSelectBackground};
+                }
+                select option {
+                    background-color: ${parent._cb.styleSelectOptionBackground};
+                }
+                #divCaption {
+                    background-color: ${parent._cb.styleModalBackground};
+                }
+
+                a:focus-visible,
+                button:focus-visible,
+                select:focus-visible,
+                input:focus-visible,
+                textarea:focus-visible {
+                    outline:  ${parent._cb.styleOutlineColor} 2px solid;
+                }
+                #imageList > div.active,
+                #imageList > div:focus-visible {
+                    outline:  ${parent._cb.styleOutlineColor} 2px solid;
+                    outline-offset: 2px;
+                }
+
+                #imageList div button {
+                    background-color: ${parent._cb.styleOutlineColor};
+                } 
+            `;
+            var style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = cssString;
+            document.getElementsByTagName('head')[0].appendChild(style);
+        }
+
+        applyParentStyles();
+
+        // Language file stuff
+        function applyLang() {
+            let elms = document.querySelectorAll('[data-lang]');
+            elms.forEach(function(elm){
+                elm.innerHTML = parent._cb.out(elm.innerHTML);
+            });
+        }
+        applyLang();
+
+        document.body.style.opacity = 1;
+    </script>
+
+    <svg width="0" height="0" style="position:absolute;display:none;">
+        <defs>
+            <symbol id="icon-folder" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M11 19h-6a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2.5"></path>
+                <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                <path d="M20.2 20.2l1.8 1.8"></path>
+            </symbol>
+        </defs>
+    </svg>
+</body>
+</html>

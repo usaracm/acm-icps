@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.type-amaticsc-josepfinsans {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.29rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-amaticsc-josepfinsans h1, .type-amaticsc-josepfinsans h2, .type-amaticsc-josepfinsans h3, .type-amaticsc-josepfinsans h4, .type-amaticsc-josepfinsans h5, .type-amaticsc-josepfinsans h6 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}        
+
+.type-amaticsc-josepfinsans h1 {font-size: 3.3rem; margin: 1.2rem 0 1.2rem; }
+.type-amaticsc-josepfinsans h2 {font-size: 2.8rem; margin: 1rem 0 1rem; }
+.type-amaticsc-josepfinsans h3 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-amaticsc-josepfinsans h4 {font-size: 2rem; margin: 0.5rem 0 0.5rem; }
+.type-amaticsc-josepfinsans h5 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-amaticsc-josepfinsans h6 {font-size: 1.29rem; margin: 0.5rem 0 0.5rem; }
+.type-amaticsc-josepfinsans p {margin:0.8rem 0 0.8rem;}
+/* .type-amaticsc-josepfinsans ul, .type-amaticsc-josepfinsans ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-amaticsc-josepfinsans .display { margin-bottom: 0.5rem; }
+.type-amaticsc-josepfinsans .display h1 {
+	font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 4.9rem;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-amaticsc-josepfinsans .display p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-style: italic;
+}

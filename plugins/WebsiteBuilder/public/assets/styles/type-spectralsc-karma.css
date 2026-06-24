@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+
+.type-spectralsc-karma {
+    font-family: 'Karma', serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-spectralsc-karma h1, .type-spectralsc-karma h2, .type-spectralsc-karma h3, .type-spectralsc-karma h4, .type-spectralsc-karma h5, .type-spectralsc-karma h6 {
+    font-family: 'Spectral SC', serif;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 1.2;  
+}        
+
+.type-spectralsc-karma h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-spectralsc-karma h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-spectralsc-karma h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-spectralsc-karma h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-spectralsc-karma h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-spectralsc-karma h6 {font-size: 1.22rem; margin: 0.5rem 0 0.5rem; }
+.type-spectralsc-karma p {margin:0.8rem 0 0.8rem;}
+/* .type-spectralsc-karma ul, .type-spectralsc-karma ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-spectralsc-karma .display { margin-bottom: 0.5rem; }
+.type-spectralsc-karma .display h1 {
+	font-family: 'Spectral SC', serif;
+    font-weight: 200;
+    font-size: 4.3rem;
+    line-height: 1.1;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin: 0.4rem 0 1rem;
+}
+.type-spectralsc-karma .display p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}

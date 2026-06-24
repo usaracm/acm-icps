@@ -1,0 +1,42 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+.type-quicksand-kalam {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.19rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-quicksand-kalam h1, .type-quicksand-kalam h2, .type-quicksand-kalam h3, .type-quicksand-kalam h4, .type-quicksand-kalam h5, .type-quicksand-kalam h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}        
+
+.type-quicksand-kalam h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-quicksand-kalam h2 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-quicksand-kalam h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-quicksand-kalam h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-quicksand-kalam h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-quicksand-kalam h6 {font-size: 1.19rem; margin: 0.5rem 0 0.5rem; }
+.type-quicksand-kalam p {margin:0.8rem 0 0.8rem;}
+/* .type-quicksand-kalam ul, .type-quicksand-kalam ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-quicksand-kalam .display { margin-bottom: 0.5rem; }
+.type-quicksand-kalam .display h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-quicksand-kalam .display p {
+    font-family: 'Kalam', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+body, .is-wrapper {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.34rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 2px;   
+}        
+
+.is-wrapper h1 {font-size: 3.2rem;}
+.is-wrapper h2 {font-size: 2.6rem;}
+.is-wrapper h3 {font-size: 2.1rem;}
+.is-wrapper h4 {font-size: 1.8rem;}
+.is-wrapper h5 {font-size: 1.5rem;}
+.is-wrapper h6 {font-size: 1.34rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 4.3rem;
+    letter-spacing: 4px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+.type-atma-tajawal {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-atma-tajawal h1, .type-atma-tajawal h2, .type-atma-tajawal h3, .type-atma-tajawal h4, .type-atma-tajawal h5, .type-atma-tajawal h6 {
+    font-family: 'Atma', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-atma-tajawal h1 {font-size: 3.2rem; margin: 1.2rem 0 1.2rem; }
+.type-atma-tajawal h2 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-atma-tajawal h3 {font-size: 2.2rem; margin: 1rem 0 1rem; }
+.type-atma-tajawal h4 {font-size: 1.9rem; margin: 0.5rem 0 0.5rem; }
+.type-atma-tajawal h5 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-atma-tajawal h6 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-atma-tajawal p {margin:0.8rem 0 0.8rem;}
+/* .type-atma-tajawal ul, .type-atma-tajawal ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-atma-tajawal .display { margin-bottom: 0.5rem; }
+.type-atma-tajawal .display h1 {
+	font-family: 'Atma', cursive;
+    font-size: 4.8rem;
+    line-height: 1.15;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-atma-tajawal .display p {
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
