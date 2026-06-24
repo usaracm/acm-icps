@@ -1,0 +1,164 @@
+@import "./calendar/vanilla-calendar-min.css";
+@import "./calendar/themes/light.css";
+@config './tailwind.config.js';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .accordion-header {
+        @apply py-1 px-1 cursor-pointer gap-1 flex items-center;
+    }
+    .accordion-body{
+        @apply overflow-hidden transition-all duration-200 ease-out
+    }
+}
+
+:root {
+    --font-family: 'Inter';
+
+}
+
+::placeholder {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+
+.debug {
+    @apply border-red-500 border-2;
+}
+
+.page-main {
+    @apply 
+        mx-auto max-w-7xl flex flex-col w-full
+        lg:grid lg:grid-cols-12 gap-3
+}
+
+.page-content {
+    @apply card card-compact p-5 bg-white border h-min;
+}
+
+.page-rightbar{
+    @apply lg:col-span-3;
+}
+
+.user-content {
+    @apply 
+        prose prose-sm 
+        prose-a:text-primary prose-a:underline hover:prose-a:text-primary 
+        /* prose-h2:mt-0  */
+        prose-h3:mt-0
+        prose-p:my-2
+        max-w-none
+        prose-img:my-0
+        first:*:mt-0 last:*:mb-0;
+    --tw-prose-body: unset;
+}
+
+.text-heading {
+    @apply text-xl mb-2 text-gray-800 tracking-normal;
+}
+
+
+.text-content {
+    @apply text-sm leading-6;
+}
+
+
+.author-badge{
+    @apply badge badge-outline text-2xs badge-xs  h-5 text-yellow-400;
+}
+
+.editor-badge{
+    @apply badge badge-outline text-2xs badge-xs  h-5 text-gray-400;
+}
+
+.reviewer-badge{
+    @apply badge badge-outline text-2xs badge-xs  h-5 text-gray-400;
+}
+
+.participant-badge{
+    @apply badge badge-outline text-2xs badge-xs  h-5 text-primary;
+}
+
+.offline-badge{
+    @apply badge badge-outline text-2xs badge-xs  h-5 text-gray-400;
+}
+
+.past-marker {
+    @apply w-2 h-2 rounded-full bg-gray-300;
+}
+
+.current-marker {
+    @apply w-2 h-2 rounded-full bg-green-600;
+}
+
+.upcoming-marker{
+    @apply w-2 h-2 rounded-full bg-yellow-400;
+}
+
+.past-timeline{
+    @apply card card-compact bg-white/50 border w-full text-gray-400 p-3 flex-col rounded;
+}
+
+.current-timeline{
+    @apply card card-compact bg-white border border-primary w-full p-3 flex-col rounded;
+}
+
+.upcoming-timeline{
+    @apply card card-compact bg-white border w-full p-3 flex-col rounded text-gray-600;
+}
+
+/* Handle HTML from TinyMCE */
+#submission-detail #references ul {
+    @apply list-disc list-inside;
+}
+
+/* Handle HTML from TinyMCE */
+#submission-detail #references ol {
+    @apply list-decimal list-inside space-y-3;
+}
+
+.sidebar-menu .card-body  {
+    @apply p-0;
+}
+
+.sidebar-menu .card-body ul {
+    @apply list-none pl-0 my-0;
+}
+
+.sidebar-menu .card-body li {
+    @apply pl-0 my-0 border-b last:border-b-0
+}
+
+.sidebar-menu .card-body li a {
+    @apply block w-full px-4 py-2 font-medium text-left border-gray-200 cursor-pointer hover:bg-primary hover:text-white no-underline;
+}
+
+#citationOutput .csl-left-margin {
+    display: none;
+}
+
+/* .table :where(th, td) {
+    @apply p-0
+} */
+
+
+.orcid-logo {
+	color: #A1C837;
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+.google-scholar-logo {
+	color: #4185F4;
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+.scopus-logo {
+	color: #e9711c;
+	height: 1.25rem;
+	width: 1.25rem;
+}

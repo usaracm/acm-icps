@@ -1,0 +1,25 @@
+plugins:
+  - name: GoogleScholarMetadata
+    link: https://panel.leconfe.com/api/plugins/release/download/627925030850738
+
+  - name: CustomSidebarManager
+    link: https://panel.leconfe.com/api/plugins/release/download/484164187661747
+
+  - name: CustomHeader
+    link: https://panel.leconfe.com/api/plugins/release/download/615268614770965
+
+  - name: PdfJs
+    link: https://panel.leconfe.com/api/plugins/release/download/590432709864161
+
+  - name: SubmissionReport
+    link: https://panel.leconfe.com/api/plugins/release/download/590430802743805
+
+  - name: QuickSubmit
+    link: https://panel.leconfe.com/api/plugins/release/download/627230347614255
+  
+  - name: CertificateManager
+    link: https://panel.leconfe.com/api/plugins/release/download/634660602878682
+  
+  - name: WebsiteBuilder
+    link: https://panel.leconfe.com/api/plugins/release/download/656312646821813
+  

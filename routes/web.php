@@ -1,0 +1,40 @@
+<?php
+
+use App\Http\Controllers\FileUploadController;
+use App\Http\Controllers\LogoutController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('download/{path}', function (string $path, Request $request) {
+    abort_if(! $request->hasValidSignature(), 401);
+
+    try {
+        $storage = Storage::disk($request->query('disk', 'local'));
+    } catch (\Throwable $th) {
+        abort(404);
+    }
+
+    abort_if(! $storage->exists($path), 404);
+
+    if ($request->boolean('inline')) {
+        return $storage->response($path);
+    }
+
+    return $storage->download($path);
+})->where('path', '.*')->name('download');
+
+Route::any('logout', LogoutController::class)->name('logout');
+Route::post('livewire/upload-file', [FileUploadController::class, 'handle'])
+    ->name('livewire.upload-file');

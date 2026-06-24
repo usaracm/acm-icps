@@ -1,0 +1,127 @@
+@import "../../../vendor/filament/filament/resources/css/theme.css";
+@import "tippy.js/dist/tippy.css";
+
+@config './tailwind.config.js';
+
+/* @import "tippy.js/dist/tippy.css"; */
+.fi-tabs {
+    /* TODO Apply alignment tabs to left, currently break contained tab when this css applied */
+    /* @apply ml-0 mr-auto; */
+}
+
+.fi-simple-link {
+    @apply text-primary-600 underline transition hover:text-primary-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-600 focus-visible:ring-offset-2 dark:text-primary-400 dark:hover:text-primary-300 dark:focus-visible:ring-primary-500;
+}
+/* 
+.fi-sidebar {
+    @apply lg:!bg-white dark:lg:!bg-gray-900 !rounded-xl my-4 ml-4 -left-6 lg:left-0;
+    @apply !ring-1 lg:ring-gray-950/5;
+}
+
+.fi-sidebar-open {
+    @apply left-0;
+}
+
+.fi-sidebar-header {
+    @apply !bg-transparent !shadow-none ring-0;
+}
+
+.fi-topbar nav {
+    @apply lg:rounded-xl lg:ring-1 lg:ring-gray-950/5 lg:!mx-8 lg:mt-4;
+}
+
+.fi-sidebar-nav {
+    @apply h-full;
+} */
+
+body {
+    @apply !bg-gray-100 dark:!bg-gray-950;
+}
+
+.fi-breadcrumbs {
+    @apply duration-500 animate-in slide-in-from-right-5 fade-in;
+}
+
+.fi-header-heading, .fi-header-subheading {
+    @apply duration-500 animate-in slide-in-from-right-5 fade-in;
+}
+
+.fi-global-search-field {
+    @apply duration-500 animate-in fade-in;
+}
+
+.fi-section-content > div {
+    @apply duration-1000 animate-in fade-in;
+}
+
+.fi-in-tabs-tab > dl {
+    @apply duration-500 animate-in fade-in;
+}
+
+.fi-sidebar{
+    @apply lg:!bg-white lg:!shadow-xl dark:lg:!bg-gray-900
+}
+
+.fi-sidebar-header{
+    @apply shadow-sm z-10
+}
+
+/* Styling TinyMCE input field */
+.tox-tinymce {
+    @apply !rounded-lg;
+}
+
+/* #switch-conference .fi-dropdown-panel,
+#switch-series .fi-dropdown-panel {
+    @apply w-full max-w-[18rem];
+} */
+
+.fi-sidebar-nav {
+    @apply !gap-y-4
+}
+
+.fi-ta-group-selection-cell {
+    @apply !bg-white;
+}
+
+.fi-ta-group-header {
+    @apply !bg-white !py-3;
+}
+
+.fi-ta-group-header .grid h4 {
+    @apply !py-2;
+}
+
+.user-content {
+    @apply 
+        prose prose-sm 
+        /* prose-a:text-primary prose-a:underline hover:prose-a:text-primary  */
+        /* prose-h2:mt-0  */
+        prose-h3:mt-0
+        prose-p:my-2
+        max-w-none
+        prose-img:my-0
+        first:*:mt-0 last:*:mb-0;
+    --tw-prose-body: unset;
+}
+
+.fi-in-entry-wrp-label > span {
+    @apply text-gray-600
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.container-iframe-16-9 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
