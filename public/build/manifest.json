@@ -1,0 +1,47 @@
+{
+  "_index-18fb27d5.js": {
+    "file": "assets/index-18fb27d5.js"
+  },
+  "resources/assets/images/footer.png": {
+    "file": "assets/footer-d99a47a5.png",
+    "src": "resources/assets/images/footer.png"
+  },
+  "resources/assets/images/logo.png": {
+    "file": "assets/logo-913f6b43.png",
+    "src": "resources/assets/images/logo.png"
+  },
+  "resources/assets/images/placeholder-vertical.jpg": {
+    "file": "assets/placeholder-vertical-668ba931.jpg",
+    "src": "resources/assets/images/placeholder-vertical.jpg"
+  },
+  "resources/assets/sample.pdf": {
+    "file": "assets/sample-5cd3b6e6.pdf",
+    "src": "resources/assets/sample.pdf"
+  },
+  "resources/frontend/css/frontend.css": {
+    "file": "assets/frontend-e59c0304.css",
+    "isEntry": true,
+    "src": "resources/frontend/css/frontend.css"
+  },
+  "resources/frontend/js/frontend.js": {
+    "file": "assets/frontend-e3424811.js",
+    "imports": [
+      "_index-18fb27d5.js"
+    ],
+    "isEntry": true,
+    "src": "resources/frontend/js/frontend.js"
+  },
+  "resources/panel/css/panel.css": {
+    "file": "assets/panel-fecf4552.css",
+    "isEntry": true,
+    "src": "resources/panel/css/panel.css"
+  },
+  "resources/panel/js/panel.js": {
+    "file": "assets/panel-c163a7d4.js",
+    "imports": [
+      "_index-18fb27d5.js"
+    ],
+    "isEntry": true,
+    "src": "resources/panel/js/panel.js"
+  }
+}
