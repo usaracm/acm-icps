@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.type-specialelite-encodesans {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1.14rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-specialelite-encodesans h1, .type-specialelite-encodesans h2, .type-specialelite-encodesans h3, .type-specialelite-encodesans h4, .type-specialelite-encodesans h5, .type-specialelite-encodesans h6 {
+    font-family: 'Special Elite', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-specialelite-encodesans h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-specialelite-encodesans h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-specialelite-encodesans h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-specialelite-encodesans h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-specialelite-encodesans h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-specialelite-encodesans h6 {font-size: 1.14rem; margin: 0.5rem 0 0.5rem; }
+.type-specialelite-encodesans p {margin:0.8rem 0 0.8rem;}
+/* .type-specialelite-encodesans ul, .type-specialelite-encodesans ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-specialelite-encodesans .display { margin-bottom: 0.5rem; }
+.type-specialelite-encodesans .display h1 {
+	font-family: 'Special Elite', cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-specialelite-encodesans .display p {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

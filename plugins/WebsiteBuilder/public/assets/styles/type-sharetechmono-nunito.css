@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+.type-sharetechmono-nunito {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-sharetechmono-nunito h1, .type-sharetechmono-nunito h2, .type-sharetechmono-nunito h3, .type-sharetechmono-nunito h4, .type-sharetechmono-nunito h5, .type-sharetechmono-nunito h6 {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-sharetechmono-nunito h1 {font-size: 3.2rem; margin: 1.2rem 0 1.2rem; }
+.type-sharetechmono-nunito h2 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-sharetechmono-nunito h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-sharetechmono-nunito h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-sharetechmono-nunito h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-sharetechmono-nunito h6 {font-size: 1.25rem; margin: 0.5rem 0 0.5rem; }
+.type-sharetechmono-nunito p {margin:0.8rem 0 0.8rem;}
+/* .type-sharetechmono-nunito ul, .type-sharetechmono-nunito ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sharetechmono-nunito .display { margin-bottom: 0.5rem; }
+.type-sharetechmono-nunito .display h1 {
+	font-family: 'Share Tech Mono', monospace;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.type-sharetechmono-nunito .display p {
+    font-size: 1.26rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

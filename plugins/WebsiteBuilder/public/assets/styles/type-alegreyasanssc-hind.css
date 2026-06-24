@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+.type-alegreyasanssc-hind {
+    font-family: 'Hind', sans-serif;
+    font-size: 1.29rem; 
+    line-height: 1.4;
+    font-weight: 300;
+}
+.type-alegreyasanssc-hind h1, .type-alegreyasanssc-hind h2, .type-alegreyasanssc-hind h3, .type-alegreyasanssc-hind h4, .type-alegreyasanssc-hind h5, .type-alegreyasanssc-hind h6 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+}        
+
+.type-alegreyasanssc-hind h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-alegreyasanssc-hind h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-alegreyasanssc-hind h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-alegreyasanssc-hind h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-alegreyasanssc-hind h5 {font-size: 1.55rem; margin: 0.5rem 0 0.5rem; }
+.type-alegreyasanssc-hind h6 {font-size: 1.29rem; margin: 0.5rem 0 0.5rem; }
+.type-alegreyasanssc-hind p {margin:0.8rem 0 0.8rem;}
+/* .type-alegreyasanssc-hind ul, .type-alegreyasanssc-hind ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-alegreyasanssc-hind .display { margin-bottom: 0.5rem; }
+.type-alegreyasanssc-hind .display h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    font-size: 4.8rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-alegreyasanssc-hind .display p {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}

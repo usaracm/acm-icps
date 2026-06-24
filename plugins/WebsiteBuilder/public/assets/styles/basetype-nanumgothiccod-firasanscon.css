@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, .is-wrapper {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.is-wrapper h1 {font-size: 3.2rem;}
+.is-wrapper h2 {font-size: 2.6rem;}
+.is-wrapper h3 {font-size: 2rem;}
+.is-wrapper h4 {font-size: 1.7rem;}
+.is-wrapper h5 {font-size: 1.4rem;}
+.is-wrapper h6 {font-size: 1.2rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+	font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 3.7rem;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+}

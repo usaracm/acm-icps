@@ -1,0 +1,13 @@
+{
+    "name": "leconfe/website-builder",
+    "autoload": {
+        "psr-4": {
+            "WebsiteBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leconfe"
+        }
+    ]
+}

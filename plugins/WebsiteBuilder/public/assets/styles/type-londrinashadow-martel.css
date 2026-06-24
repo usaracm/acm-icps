@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+.type-londrinashadow-martel {
+    font-family: 'Martel', serif;
+    font-size: 1.08rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-londrinashadow-martel h1, .type-londrinashadow-martel h2, .type-londrinashadow-martel h3, .type-londrinashadow-martel h4, .type-londrinashadow-martel h5, .type-londrinashadow-martel h6 {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-londrinashadow-martel h1 {font-size: 3.2rem; margin: 1.2rem 0 1.2rem; }
+.type-londrinashadow-martel h2 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-londrinashadow-martel h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-londrinashadow-martel h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-londrinashadow-martel h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-londrinashadow-martel h6 {font-size: 1.1rem; margin: 0.5rem 0 0.5rem; }
+.type-londrinashadow-martel p {margin:0.8rem 0 0.8rem;}
+/* .type-londrinashadow-martel ul, .type-londrinashadow-martel ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-londrinashadow-martel .display { margin-bottom: 0.5rem; }
+.type-londrinashadow-martel .display h1 {
+	font-family: 'Londrina Shadow', cursive;
+    font-size: 5.5rem;
+    letter-spacing: 6px;
+    line-height: 1.05;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-londrinashadow-martel .display p {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

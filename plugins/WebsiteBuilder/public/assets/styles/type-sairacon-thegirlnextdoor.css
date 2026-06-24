@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+.type-sairacon-thegirlnextdoor {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 1.35rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-sairacon-thegirlnextdoor h1, .type-sairacon-thegirlnextdoor h2, .type-sairacon-thegirlnextdoor h3, .type-sairacon-thegirlnextdoor h4, .type-sairacon-thegirlnextdoor h5, .type-sairacon-thegirlnextdoor h6 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 200;
+    line-height: 1.2;
+}        
+
+.type-sairacon-thegirlnextdoor h1 {font-size: 3.3rem; margin: 1.2rem 0 1.2rem; }
+.type-sairacon-thegirlnextdoor h2 {font-size: 2.7rem; margin: 1rem 0 1rem; }
+.type-sairacon-thegirlnextdoor h3 {font-size: 2.2rem; margin: 1rem 0 1rem; }
+.type-sairacon-thegirlnextdoor h4 {font-size: 1.9rem; margin: 0.5rem 0 0.5rem; }
+.type-sairacon-thegirlnextdoor h5 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-sairacon-thegirlnextdoor h6 {font-size: 1.35rem; margin: 0.5rem 0 0.5rem; }
+.type-sairacon-thegirlnextdoor p {margin:0.8rem 0 0.8rem;}
+/* .type-sairacon-thegirlnextdoor ul, .type-sairacon-thegirlnextdoor ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sairacon-thegirlnextdoor .display { margin-bottom: 0.5rem; }
+.type-sairacon-thegirlnextdoor .display h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 4.7rem;
+    line-height: 1.2;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-sairacon-thegirlnextdoor .display p {
+	font-family: 'The Girl Next Door', cursive;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.type-elsie-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-elsie-montserrat h1, .type-elsie-montserrat h2, .type-elsie-montserrat h3, .type-elsie-montserrat h4, .type-elsie-montserrat h5, .type-elsie-montserrat h6 {
+    font-family: 'Elsie', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}        
+
+.type-elsie-montserrat h1 {font-size: 3.5rem; margin: 1.2rem 0 1.2rem; }
+.type-elsie-montserrat h2 {font-size: 2.9rem; margin: 1rem 0 1rem; }
+.type-elsie-montserrat h3 {font-size: 2.43rem; margin: 1rem 0 1rem; }
+.type-elsie-montserrat h4 {font-size: 2rem; margin: 0.5rem 0 0.5rem; }
+.type-elsie-montserrat h5 {font-size: 1.74rem; margin: 0.5rem 0 0.5rem; }
+.type-elsie-montserrat h6 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-elsie-montserrat p {margin:0.8rem 0 0.8rem;}
+/* .type-elsie-montserrat ul, .type-elsie-montserrat ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-elsie-montserrat .display { margin-bottom: 0.5rem; }
+.type-elsie-montserrat .display h1 {
+	font-family: 'Elsie', cursive;
+    font-size: 4.8rem;
+    line-height: 1.15;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-elsie-montserrat .display p {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    font-style: italic;
+}

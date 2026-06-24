@@ -1,0 +1,37 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.type-sriracha-arvo {
+    font-family: 'Arvo', serif;
+    font-size: 1.14rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.type-sriracha-arvo h1, .type-sriracha-arvo h2, .type-sriracha-arvo h3, .type-sriracha-arvo h4, .type-sriracha-arvo h5, .type-sriracha-arvo h6 {
+    font-family: 'Sriracha', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+}        
+
+.type-sriracha-arvo h1 {font-size: 3.3rem;line-height: 1.15; margin: 1.2rem 0 1.2rem; }
+.type-sriracha-arvo h2 {font-size: 2.6rem; margin: 1rem 0 1rem; }
+.type-sriracha-arvo h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-sriracha-arvo h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-sriracha-arvo h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-sriracha-arvo h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-sriracha-arvo p {margin:0.8rem 0 0.8rem;}
+/* .type-sriracha-arvo ul, .type-sriracha-arvo ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sriracha-arvo .display { margin-bottom: 0.5rem; }
+.type-sriracha-arvo .display h1 {
+	font-family: 'Sriracha', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-sriracha-arvo .display p {
+    font-size: 1.4rem;
+}

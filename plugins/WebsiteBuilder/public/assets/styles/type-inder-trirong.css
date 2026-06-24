@@ -1,0 +1,43 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+.type-inder-trirong {
+    font-family: 'Trirong', serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-inder-trirong h1, .type-inder-trirong h2, .type-inder-trirong h3, .type-inder-trirong h4, .type-inder-trirong h5, .type-inder-trirong h6 {
+    font-family: 'Inder', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}        
+
+.type-inder-trirong h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-inder-trirong h2 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-inder-trirong h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-inder-trirong h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-inder-trirong h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-inder-trirong h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-inder-trirong p {margin:0.8rem 0 0.8rem;}
+/* .type-inder-trirong ul, .type-inder-trirong ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-inder-trirong .display { margin-bottom: 0.5rem; }
+.type-inder-trirong .display h1 {
+	font-family: 'Inder', sans-serif;
+    font-size: 4.8rem;
+    line-height: 1.05;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-inder-trirong .display p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

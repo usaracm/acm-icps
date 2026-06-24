@@ -1,0 +1,42 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+.type-pinyonscript-firasans {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.02rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-pinyonscript-firasans h1, .type-pinyonscript-firasans h2, .type-pinyonscript-firasans h3, .type-pinyonscript-firasans h4, .type-pinyonscript-firasans h5, .type-pinyonscript-firasans h6 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    line-height: 1.2;
+}        
+
+.type-pinyonscript-firasans h1 {font-size: 3.2rem; margin: 1.2rem 0 1.2rem; }
+.type-pinyonscript-firasans h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-pinyonscript-firasans h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-pinyonscript-firasans h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-pinyonscript-firasans h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-pinyonscript-firasans h6 {font-size: 1.14rem; margin: 0.5rem 0 0.5rem; }
+.type-pinyonscript-firasans p {margin:0.8rem 0 0.8rem;}
+/* .type-pinyonscript-firasans ul, .type-pinyonscript-firasans ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-pinyonscript-firasans .display { margin-bottom: 0.5rem; }
+.type-pinyonscript-firasans .display h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 6rem;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-pinyonscript-firasans .display p {
+    font-family: 'Six Caps', cursive;
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}

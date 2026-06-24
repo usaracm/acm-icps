@@ -1,0 +1,41 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+body, .is-wrapper {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.18rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, 
+.is-wrapper h1, .is-wrapper h2, .is-wrapper h3, .is-wrapper h4, .is-wrapper h5, .is-wrapper h6 {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}        
+
+.is-wrapper h1 {font-size: 3rem;}
+.is-wrapper h2 {font-size: 2.5rem;}
+.is-wrapper h3 {font-size: 2rem;}
+.is-wrapper h4 {font-size: 1.7rem;}
+.is-wrapper h5 {font-size: 1.4rem;}
+.is-wrapper h6 {font-size: 1.18rem;}
+
+.display { margin-bottom: 0.5rem; }
+.display h1 {
+	font-family: 'Prata', serif;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.display p {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

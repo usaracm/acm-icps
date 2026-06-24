@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+ 
+.type-sixcaps-robotomono {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.04rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-sixcaps-robotomono h1, .type-sixcaps-robotomono h2, .type-sixcaps-robotomono h3, .type-sixcaps-robotomono h4, .type-sixcaps-robotomono h5, .type-sixcaps-robotomono h6 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    line-height: 1.2;
+}        
+
+.type-sixcaps-robotomono h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-sixcaps-robotomono h2 {font-size: 2.4rem; margin: 1rem 0 1rem; }
+.type-sixcaps-robotomono h3 {font-size: 1.9rem; margin: 1rem 0 1rem; }
+.type-sixcaps-robotomono h4 {font-size: 1.6rem; margin: 0.5rem 0 0.5rem; }
+.type-sixcaps-robotomono h5 {font-size: 1.3rem; margin: 0.5rem 0 0.5rem; }
+.type-sixcaps-robotomono h6 {font-size: 1.04rem; margin: 0.5rem 0 0.5rem; }
+.type-sixcaps-robotomono p {margin:0.8rem 0 0.8rem;}
+/* .type-sixcaps-robotomono ul, .type-sixcaps-robotomono ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sixcaps-robotomono .display { margin-bottom: 0.5rem; }
+.type-sixcaps-robotomono .display h1 {
+    font-family: 'Six Caps', sans-serif;
+    font-weight: 400;
+    font-size: 5.4rem;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin: 0.4rem 0 1rem;
+}
+.type-sixcaps-robotomono .display p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

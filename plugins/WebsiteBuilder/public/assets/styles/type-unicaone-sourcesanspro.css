@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.type-unicaone-sourcesanspro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.93rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-unicaone-sourcesanspro h1, .type-unicaone-sourcesanspro h2, .type-unicaone-sourcesanspro h3, .type-unicaone-sourcesanspro h4, .type-unicaone-sourcesanspro h5, .type-unicaone-sourcesanspro h6 {
+    font-family: 'Unica One', cursive;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+}        
+
+.type-unicaone-sourcesanspro h1 {font-size: 3.75rem; margin: 1.2rem 0 1.2rem; }
+.type-unicaone-sourcesanspro h2 {font-size: 3.4rem; margin: 1rem 0 1rem; }
+.type-unicaone-sourcesanspro h3 {font-size: 3.1rem; margin: 1rem 0 1rem; }
+.type-unicaone-sourcesanspro h4 {font-size: 2.9rem; margin: 0.5rem 0 0.5rem; }
+.type-unicaone-sourcesanspro h5 {font-size: 2.8rem; margin: 0.5rem 0 0.5rem; }
+.type-unicaone-sourcesanspro h6 {font-size: 2.7rem; margin: 0.5rem 0 0.5rem; }
+.type-unicaone-sourcesanspro p {margin:0.8rem 0 0.8rem;}
+/* .type-unicaone-sourcesanspro ul, .type-unicaone-sourcesanspro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-unicaone-sourcesanspro .display { margin-bottom: 0.5rem; }
+.type-unicaone-sourcesanspro .display h1 {
+	font-family: 'Unica One', cursive;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0.4rem 0 1rem;
+}
+.type-unicaone-sourcesanspro .display p {
+    font-size: 1.15rem;
+    font-style: italic;
+}

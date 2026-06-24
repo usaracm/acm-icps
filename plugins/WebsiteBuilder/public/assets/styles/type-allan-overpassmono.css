@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap');
+
+.type-allan-overpassmono {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1.05rem; 
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-allan-overpassmono h1, .type-allan-overpassmono h2, .type-allan-overpassmono h3, .type-allan-overpassmono h4, .type-allan-overpassmono h5, .type-allan-overpassmono h6 {
+    font-family: 'Allan', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-allan-overpassmono h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-allan-overpassmono h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-allan-overpassmono h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-allan-overpassmono h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-allan-overpassmono h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-allan-overpassmono h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-allan-overpassmono p {margin:0.8rem 0 0.8rem;}
+/* .type-allan-overpassmono ul, .type-allan-overpassmono ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-allan-overpassmono .display { margin-bottom: 0.5rem; }
+.type-allan-overpassmono .display h1 {
+	font-family: 'Allan', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0.4rem 0 1rem;
+}
+.type-allan-overpassmono .display p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

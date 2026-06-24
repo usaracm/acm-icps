@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.type-sourcesanspro-anonymouspro {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.14rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.type-sourcesanspro-anonymouspro h1, .type-sourcesanspro-anonymouspro h2, .type-sourcesanspro-anonymouspro h3, .type-sourcesanspro-anonymouspro h4, .type-sourcesanspro-anonymouspro h5, .type-sourcesanspro-anonymouspro h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}        
+
+.type-sourcesanspro-anonymouspro h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-sourcesanspro-anonymouspro h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-sourcesanspro-anonymouspro h3 {font-size: 2.1rem; margin: 1rem 0 1rem; }
+.type-sourcesanspro-anonymouspro h4 {font-size: 1.8rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcesanspro-anonymouspro h5 {font-size: 1.5rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcesanspro-anonymouspro h6 {font-size: 1.2rem; margin: 0.5rem 0 0.5rem; }
+.type-sourcesanspro-anonymouspro p {margin:0.8rem 0 0.8rem;}
+/* .type-sourcesanspro-anonymouspro ul, .type-sourcesanspro-anonymouspro ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-sourcesanspro-anonymouspro .display { margin-bottom: 0.5rem; }
+.type-sourcesanspro-anonymouspro .display h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0.2rem 0 1rem;
+}
+.type-sourcesanspro-anonymouspro .display p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}

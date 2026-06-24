@@ -1,0 +1,43 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.type-merriweathersans-martel {
+    font-family: 'Martel', serif;
+    font-size: 1.08rem; 
+    line-height: 1.5;
+    font-weight: 200;
+}
+.type-merriweathersans-martel h1, .type-merriweathersans-martel h2, .type-merriweathersans-martel h3, .type-merriweathersans-martel h4, .type-merriweathersans-martel h5, .type-merriweathersans-martel h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}        
+
+.type-merriweathersans-martel h1 {font-size: 3rem; margin: 1.2rem 0 1.2rem; }
+.type-merriweathersans-martel h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-merriweathersans-martel h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-merriweathersans-martel h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweathersans-martel h5 {font-size: 1.4rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweathersans-martel h6 {font-size: 1.08rem; margin: 0.5rem 0 0.5rem; }
+.type-merriweathersans-martel p {margin:0.8rem 0 0.8rem;}
+/* .type-merriweathersans-martel ul, .type-merriweathersans-martel ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-merriweathersans-martel .display { margin-bottom: 0.5rem; }
+.type-merriweathersans-martel .display h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0.4rem 0 1rem;
+}
+.type-merriweathersans-martel .display p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

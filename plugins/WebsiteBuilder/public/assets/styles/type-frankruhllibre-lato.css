@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.type-frankruhllibre-lato {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.type-frankruhllibre-lato h1, .type-frankruhllibre-lato h2, .type-frankruhllibre-lato h3, .type-frankruhllibre-lato h4, .type-frankruhllibre-lato h5, .type-frankruhllibre-lato h6 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}        
+
+.type-frankruhllibre-lato h1 {font-size: 3.1rem; margin: 1.2rem 0 1.2rem; }
+.type-frankruhllibre-lato h2 {font-size: 2.5rem; margin: 1rem 0 1rem; }
+.type-frankruhllibre-lato h3 {font-size: 2rem; margin: 1rem 0 1rem; }
+.type-frankruhllibre-lato h4 {font-size: 1.7rem; margin: 0.5rem 0 0.5rem; }
+.type-frankruhllibre-lato h5 {font-size: 1.45rem; margin: 0.5rem 0 0.5rem; }
+.type-frankruhllibre-lato h6 {font-size: 1.21rem; margin: 0.5rem 0 0.5rem; }
+.type-frankruhllibre-lato p {margin:0.8rem 0 0.8rem;}
+/* .type-frankruhllibre-lato ul, .type-frankruhllibre-lato ol { margin:0 0 1rem; padding-inline-start: 20px;} */
+
+.type-frankruhllibre-lato .display { margin-bottom: 0.5rem; }
+.type-frankruhllibre-lato .display h1 {
+	font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0.4rem 0 1rem;
+}
+.type-frankruhllibre-lato .display p {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
